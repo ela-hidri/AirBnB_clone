@@ -68,3 +68,40 @@
 {
     background: url("../images/icon_bath.png") no-repeat top center;
 }
+.places .amenities{
+margin-top: 40px;
+}
+.places article .amenities h2, 
+.places .reviews h2{
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+    text-align: left;
+}
+.places .amenities li{
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 21px;
+    height: 26px;
+    padding-left: 32px;
+    padding-top: 4px;
+}
+.places .amenities li:first-child{
+    background-image: url("../images/icon_tv.png");
+}
+.places .amenities li:nth-child(2){
+    background-image: url("../images/icon_wifi.png");
+}
+.places .amenities li:nth-child(3){
+    background-image: url("../images/icon_pets.png");
+}
+.places .reviews{
+    margin-top: 40px;
+}
+.places .reviews ul li h3{
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+.places .reviews ul li p{
+    font-size: 12px;
+    margin-top: 0;
+}
